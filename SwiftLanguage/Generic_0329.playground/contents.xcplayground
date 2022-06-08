@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='GenericFunction'/>
+        <page name='GenericSome'/>
+        <page name='GenericSomeAdvance'/>
+        <page name='GenericTypeContraint'/>
+        <page name='Generic_Extending_AT_0321'/>
+        <page name='Associated_Types_Where_Clause'/>
+        <page name='GenericFunction_0420'/>
+        <page name='GenericType_0329'/>
+        <page name='TypeConstraints_0329'/>
+        <page name='AssociatedType'/>
+    </pages>
+</playground>

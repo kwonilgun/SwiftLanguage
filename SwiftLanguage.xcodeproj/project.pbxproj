@@ -11,6 +11,7 @@
 		765CEB1E28509D2A00D458FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765CEB1D28509D2A00D458FC /* ContentView.swift */; };
 		765CEB2028509D2B00D458FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765CEB1F28509D2B00D458FC /* Assets.xcassets */; };
 		765CEB2328509D2B00D458FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765CEB2228509D2B00D458FC /* Preview Assets.xcassets */; };
+		765CEB5B2850A0E900D458FC /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 765CEB582850A0E900D458FC /* User.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,52 @@
 		765CEB1D28509D2A00D458FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		765CEB1F28509D2B00D458FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765CEB2228509D2B00D458FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		765CEB2B28509D8F00D458FC /* AccessControl_0330.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessControl_0330.playground; sourceTree = "<group>"; };
+		765CEB2C28509FEA00D458FC /* Actor_0406.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Actor_0406.playground; sourceTree = "<group>"; };
+		765CEB2D2850A04500D458FC /* AdvancedOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvancedOperator.playground; sourceTree = "<group>"; };
+		765CEB2E2850A07200D458FC /* ARC_0329.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC_0329.playground; sourceTree = "<group>"; };
+		765CEB2F2850A09C00D458FC /* AsyncAwait_0403.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncAwait_0403.playground; sourceTree = "<group>"; };
+		765CEB302850A09C00D458FC /* Basics_0409.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basics_0409.playground; sourceTree = "<group>"; };
+		765CEB312850A09C00D458FC /* ControlFlow_0411.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow_0411.playground; sourceTree = "<group>"; };
+		765CEB322850A09C00D458FC /* DispatchQueue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchQueue.playground; sourceTree = "<group>"; };
+		765CEB332850A09C00D458FC /* AssociatedType_0323.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssociatedType_0323.playground; sourceTree = "<group>"; };
+		765CEB342850A09C00D458FC /* Extension_0328.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension_0328.playground; sourceTree = "<group>"; };
+		765CEB352850A09C00D458FC /* Generic_0329.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic_0329.playground; sourceTree = "<group>"; };
+		765CEB362850A09C00D458FC /* Closures_0413.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures_0413.playground; sourceTree = "<group>"; };
+		765CEB372850A09C00D458FC /* EnumGenricEx_0413playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EnumGenricEx_0413playground.playground; sourceTree = "<group>"; };
+		765CEB382850A09C00D458FC /* Deinitialize_0325.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Deinitialize_0325.playground; sourceTree = "<group>"; };
+		765CEB392850A09C00D458FC /* CollectionType_0411.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionType_0411.playground; sourceTree = "<group>"; };
+		765CEB3A2850A09C00D458FC /* Encoder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Encoder.playground; sourceTree = "<group>"; };
+		765CEB3B2850A09C00D458FC /* HistoryTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HistoryTest.playground; sourceTree = "<group>"; };
+		765CEB3C2850A09D00D458FC /* DataAndNsdata.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataAndNsdata.playground; sourceTree = "<group>"; };
+		765CEB3D2850A09D00D458FC /* Function_0328.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function_0328.playground; sourceTree = "<group>"; };
+		765CEB3E2850A09D00D458FC /* ErrorHandling_0402.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling_0402.playground; sourceTree = "<group>"; };
+		765CEB3F2850A09D00D458FC /* Inheritance_0325.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Inheritance_0325.playground; sourceTree = "<group>"; };
+		765CEB402850A09D00D458FC /* Initialization_0416.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization_0416.playground; sourceTree = "<group>"; };
+		765CEB412850A0C100D458FC /* Json_Codable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Json_Codable.playground; sourceTree = "<group>"; };
+		765CEB422850A0C100D458FC /* KeyValueCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KeyValueCode.playground; sourceTree = "<group>"; };
+		765CEB432850A0E400D458FC /* ValueCapture_0330.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ValueCapture_0330.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		765CEB442850A0E400D458FC /* Subscripts_0414.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscripts_0414.playground; sourceTree = "<group>"; };
+		765CEB452850A0E400D458FC /* Method_0414.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Method_0414.playground; sourceTree = "<group>"; };
+		765CEB462850A0E400D458FC /* Task_0404.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Task_0404.playground; sourceTree = "<group>"; };
+		765CEB472850A0E500D458FC /* StructClass_0413.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructClass_0413.playground; sourceTree = "<group>"; };
+		765CEB482850A0E500D458FC /* ResultBuilder_0331.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ResultBuilder_0331.playground; sourceTree = "<group>"; };
+		765CEB492850A0E500D458FC /* SelfTypeEx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SelfTypeEx.playground; sourceTree = "<group>"; };
+		765CEB4A2850A0E500D458FC /* MapFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapFunction.playground; sourceTree = "<group>"; };
+		765CEB4B2850A0E500D458FC /* MemorySafety.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MemorySafety.playground; sourceTree = "<group>"; };
+		765CEB4C2850A0E500D458FC /* SwiftTour_0409.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour_0409.playground; sourceTree = "<group>"; };
+		765CEB4D2850A0E500D458FC /* TypeAlias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeAlias.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		765CEB4E2850A0E500D458FC /* UserDefaults.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UserDefaults.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		765CEB4F2850A0E500D458FC /* Property_0413.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Property_0413.playground; sourceTree = "<group>"; };
+		765CEB512850A0E600D458FC /* PropertyList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PropertyList.playground; sourceTree = "<group>"; };
+		765CEB522850A0E600D458FC /* OpaqueTypes_0322.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OpaqueTypes_0322.playground; sourceTree = "<group>"; };
+		765CEB532850A0E600D458FC /* Protocol_0328.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol_0328.playground; sourceTree = "<group>"; };
+		765CEB542850A0E600D458FC /* Self_self_0406.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Self_self_0406.playground; sourceTree = "<group>"; };
+		765CEB552850A0E700D458FC /* String_0410.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String_0410.playground; sourceTree = "<group>"; };
+		765CEB562850A0E700D458FC /* WhileLoop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WhileLoop.playground; sourceTree = "<group>"; };
+		765CEB572850A0E800D458FC /* NestedType_0328.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NestedType_0328.playground; sourceTree = "<group>"; };
+		765CEB582850A0E900D458FC /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
+		765CEB592850A0E900D458FC /* OptionalChaining_0417.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalChaining_0417.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +98,52 @@
 		765CEB1A28509D2A00D458FC /* SwiftLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				765CEB4A2850A0E500D458FC /* MapFunction.playground */,
+				765CEB4B2850A0E500D458FC /* MemorySafety.playground */,
+				765CEB452850A0E400D458FC /* Method_0414.playground */,
+				765CEB572850A0E800D458FC /* NestedType_0328.playground */,
+				765CEB522850A0E600D458FC /* OpaqueTypes_0322.playground */,
+				765CEB592850A0E900D458FC /* OptionalChaining_0417.playground */,
+				765CEB4F2850A0E500D458FC /* Property_0413.playground */,
+				765CEB512850A0E600D458FC /* PropertyList.playground */,
+				765CEB532850A0E600D458FC /* Protocol_0328.playground */,
+				765CEB482850A0E500D458FC /* ResultBuilder_0331.playground */,
+				765CEB542850A0E600D458FC /* Self_self_0406.playground */,
+				765CEB492850A0E500D458FC /* SelfTypeEx.playground */,
+				765CEB552850A0E700D458FC /* String_0410.playground */,
+				765CEB472850A0E500D458FC /* StructClass_0413.playground */,
+				765CEB442850A0E400D458FC /* Subscripts_0414.playground */,
+				765CEB4C2850A0E500D458FC /* SwiftTour_0409.playground */,
+				765CEB462850A0E400D458FC /* Task_0404.playground */,
+				765CEB4D2850A0E500D458FC /* TypeAlias.playground */,
+				765CEB582850A0E900D458FC /* User.plist */,
+				765CEB4E2850A0E500D458FC /* UserDefaults.playground */,
+				765CEB432850A0E400D458FC /* ValueCapture_0330.playground */,
+				765CEB562850A0E700D458FC /* WhileLoop.playground */,
+				765CEB412850A0C100D458FC /* Json_Codable.playground */,
+				765CEB422850A0C100D458FC /* KeyValueCode.playground */,
+				765CEB332850A09C00D458FC /* AssociatedType_0323.playground */,
+				765CEB2F2850A09C00D458FC /* AsyncAwait_0403.playground */,
+				765CEB302850A09C00D458FC /* Basics_0409.playground */,
+				765CEB362850A09C00D458FC /* Closures_0413.playground */,
+				765CEB392850A09C00D458FC /* CollectionType_0411.playground */,
+				765CEB312850A09C00D458FC /* ControlFlow_0411.playground */,
+				765CEB3C2850A09D00D458FC /* DataAndNsdata.playground */,
+				765CEB382850A09C00D458FC /* Deinitialize_0325.playground */,
+				765CEB322850A09C00D458FC /* DispatchQueue.playground */,
+				765CEB3A2850A09C00D458FC /* Encoder.playground */,
+				765CEB372850A09C00D458FC /* EnumGenricEx_0413playground.playground */,
+				765CEB3E2850A09D00D458FC /* ErrorHandling_0402.playground */,
+				765CEB342850A09C00D458FC /* Extension_0328.playground */,
+				765CEB3D2850A09D00D458FC /* Function_0328.playground */,
+				765CEB352850A09C00D458FC /* Generic_0329.playground */,
+				765CEB3B2850A09C00D458FC /* HistoryTest.playground */,
+				765CEB3F2850A09D00D458FC /* Inheritance_0325.playground */,
+				765CEB402850A09D00D458FC /* Initialization_0416.playground */,
+				765CEB2E2850A07200D458FC /* ARC_0329.playground */,
+				765CEB2D2850A04500D458FC /* AdvancedOperator.playground */,
+				765CEB2C28509FEA00D458FC /* Actor_0406.playground */,
+				765CEB2B28509D8F00D458FC /* AccessControl_0330.playground */,
 				765CEB1B28509D2A00D458FC /* SwiftLanguageApp.swift */,
 				765CEB1D28509D2A00D458FC /* ContentView.swift */,
 				765CEB1F28509D2B00D458FC /* Assets.xcassets */,
@@ -127,6 +220,7 @@
 			files = (
 				765CEB2328509D2B00D458FC /* Preview Assets.xcassets in Resources */,
 				765CEB2028509D2B00D458FC /* Assets.xcassets in Resources */,
+				765CEB5B2850A0E900D458FC /* User.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

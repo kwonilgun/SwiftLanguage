@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Basic'/>
+        <page name='Advanced'/>
+        <page name='Override'/>
+        <page name='Automatic'/>
+        <page name='Failable'/>
+        <page name='EnumWIthRawValue'/>
+        <page name='PropagationOfFailure'/>
+        <page name='Required'/>
+        <page name='Memberwise'/>
+    </pages>
+</playground>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Basic_0329'/>
+        <page name='SRCProblem_0329'/>
+        <page name='SRCFix_0330'/>
+        <page name='Unowned_0330'/>
+        <page name='Capture_0330'/>
+        <page name='ClosureSRCProblem_0330'/>
+        <page name='WeakReferenceFix_0330'/>
+        <page name='UnownedOptional_0330'/>
+        <page name='UnowneUnwrappedOption_0330'/>
+        <page name='Closure_0330'/>
+    </pages>
+</playground>

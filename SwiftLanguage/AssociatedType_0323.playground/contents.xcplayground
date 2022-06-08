@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='BasicConcept'/>
+        <page name='Basic_0329'/>
+        <page name='Suffix'/>
+        <page name='ProtocolExtension'/>
+        <page name='Equatable'/>
+        <page name='AT_Basic_Test'/>
+        <page name='AT_Basic_2_Test_0317'/>
+        <page name='ContextualWhereClause_0329'/>
+        <page name='AT_Advance_0319'/>
+        <page name='Iterator_Example'/>
+        <page name='Iterator_Example_2'/>
+        <page name='WhereClauses_0329'/>
+        <page name='ExtensionWhere_0329'/>
+    </pages>
+</playground>

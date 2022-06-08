@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Task'/>
+        <page name='TaskCancel'/>
+        <page name='TaskString'/>
+        <page name='BasicTest'/>
+        <page name='CompletionHandler'/>
+        <page name='AsyncAwait'/>
+        <page name='TryCatch'/>
+        <page name='Sequence'/>
+        <page name='Iterator'/>
+        <page name='ReadOnlyProperties'/>
+        <page name='Structured'/>
+        <page name='Fibonacci'/>
+        <page name='TaskAsyncLet'/>
+    </pages>
+</playground>
