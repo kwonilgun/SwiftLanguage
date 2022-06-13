@@ -12,7 +12,7 @@ protocol Container {
 }
 
 
-
+//Element는 제네릭의 PlaceHolder이다. 
 struct Stack<Element: Equatable>: Container {
     // original Stack<Element> implementation
     typealias Item = Element
@@ -39,6 +39,8 @@ struct Stack<Element: Equatable>: Container {
 //이 프로토콜에서 Suffix 는 associated type 이고, 두가지 제약조건을 가진다. 먼저 SuffixableContainer 프로토콜을 준수해야하고, 이것은 결국 Container를 준수해야 한다. 그것의 Suffix.Item 컨테이너의 Item 타입과 같아야한다.
 
 // 이것이 중요한 이유는 Suffix 도 타입이다. Suffix는 SuffixableContainer를 준수해야한다. SuffixableContainer는 또한  Container를  준수해야 한다. 결국 프로토콜도 또한 타입인 것이다.
+
+//2022년 6월 13일: 결국 추론을 한다는 것이다. Suffix는 추론을 해서 거꾸로 올라온다. Suffix.Item 은 Stack.Item이 된다. 이 Item은 Container Item과 동일해야 한다. 즉 Equtable을 준수해야 한다. 프로토콜의 프로토콜이다.
 
 protocol SuffixableContainer: Container {
     associatedtype Suffix: SuffixableContainer where Suffix.Item == Item

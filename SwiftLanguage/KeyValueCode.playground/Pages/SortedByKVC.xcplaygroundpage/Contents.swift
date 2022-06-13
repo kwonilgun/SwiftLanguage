@@ -11,6 +11,9 @@ struct Videogame {
 let cyberpunk = Videogame(title: "Cyberpunk 2077", published: "2020", rating: 5)
 let titleKeyPath = \Videogame.title
 
+print(type(of: titleKeyPath))
+//WritableKeyPath<Videogame, String>  : <Base, Property>
+
 print(cyberpunk[keyPath: titleKeyPath]) // Output: Cyberpunk 2077
 
 

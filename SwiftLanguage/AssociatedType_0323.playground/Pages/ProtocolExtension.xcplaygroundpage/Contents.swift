@@ -11,6 +11,8 @@ import SwiftUI
 //    subscript(i: Int) -> Item { get }
 //}
 
+//2022년 6월 13일 이렇게 제약 조건을 줄 수 있다. 일반적으로 프로토콜의 제네릭을 associatedtype을 통해서 구현할 수 가 있다. 이 제네릭 PlaceHolder가 되고 extension을 통해서 제야글 줄 수 있는 것을 보여주는 예제이다.
+
 protocol Container {
     associatedtype Item
     mutating func append(_ item: Item)
@@ -43,13 +45,9 @@ struct Stack<Element>: Container {
     }
 }
 
-//이 프로토콜에서 Suffix 는 associated type 이고, 두가지 제약조건을 가진다. 먼저 SuffixableContainer 프로토콜을 준수해야하고, 이것은 결국 Container를 준수해야 한다. 그것의 Suffix.Item 컨테이너의 Item 타입과 같아야한다.
-
-// 이것이 중요한 이유는 Suffix 도 타입이다. Suffix는 SuffixableContainer를 준수해야한다. SuffixableContainer는 또한  Container를  준수해야 한다. 결국 프로토콜도 또한 타입인 것이다.
-
 
 var stackOfInts = Stack<Int>()
-stackOfInts.append(10)
+stackOfInts.append(42)
 stackOfInts.append(20)
 stackOfInts.append(30)
 
@@ -69,8 +67,9 @@ arrayOfStrings.push("tres")
 // Prints "All items match.
 //
 //
-////Stack 의 구조체의 확장 Stack<Element> 에서 <Element> 를 삭제해야 한다.
-///이 Element는 구조체의 PlaceHolder 이다
+////
+///이 Element는 Stack 구조체의 PlaceHolder 이다. 그리고 Element에 Equatable의 제약을 둔다. 비교하기 위해서  ==, =!, 결국 Int, String, 기본 타입을 사용하도록 제약을 두는 것이다.
+///
 extension Stack where Element: Equatable {
     func isTop(_ item: Element) -> Bool {
         guard let topItem = items.last else {
@@ -87,7 +86,7 @@ if stackOfStrings.isTop("tres") {
 }
 
 //
-////프로토콜의 확장
+////프로토콜의 확장을 통해서 Container Item을 제약을 둔다. Item의 프로토콜의 PlaceHolder 역할을 한다. 결국 추론을
 extension Container where Item: Equatable {
     func startsWith(_ item: Item) -> Bool {
         return count >= 1 && self[0] == item

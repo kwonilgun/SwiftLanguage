@@ -27,7 +27,16 @@ print(articles)
 let articleIDs = articles.map(\.id)
 print(articleIDs)
 
+let articleString = articles.map(\.title)
+print(articleString)
 
+let articleId = articles.map { $0.id }
+print(articleId)
+
+let articleSt = articles.map { $0.title }
+print(articleSt)
 
 let keyPath = \Article.id
 print(type(of: keyPath))
+let keyPathS = \Article.title
+print(type(of: keyPathS))
